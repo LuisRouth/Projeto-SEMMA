@@ -1,0 +1,9 @@
+# Ignorar base de dados (O GitHub bloqueia arquivos > 100MB)
+data/*.csv
+
+# Ignorar os modelos treinados
+models/*.pkl
+
+# Ignorar pastas de sistema e Python
+__pycache__/
+.ipynb_checkpoints/
